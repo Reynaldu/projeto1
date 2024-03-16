@@ -1,0 +1,16 @@
+@charset "UTF-8"
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: blueviolet;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 1600px;
+    padding: 0px;
+    height: 50px;   
+}
