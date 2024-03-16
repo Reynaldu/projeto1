@@ -5,14 +5,15 @@
     padding: 0px;
 }
 
+
+
 header{
     background-color: rgb(3, 3, 3);
-    position: fixed;
     left: 0px;
     top: 0px;
-    width: 1600px;
+    width: 1581px;
     padding: 0px;
-    height: 50px;   
+    
 }
 
 header h1 {
@@ -22,13 +23,89 @@ header h1 {
     position: relative;
     left: 30px;
     top:15px;
+    width: 200px;
 }
 
 header h2{
     color:aliceblue;
+    width: 200px;
     font-size: 15px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     position: relative;
     left: 1300px;
-    top: px;
 }
+
+header img {
+    width: 25px;
+    position: relative;
+    left: 1260px;
+    bottom: 20px;
+}
+ main {
+   height: 0px;
+   width: 0px; 
+ }
+
+section {
+    background-color: rgb(211, 219, 219);
+    width: 500px;
+    height: 200px;
+    margin: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+section h1 {
+    font-size: 2.5em;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+section p{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.sociais {
+  
+    width: 500px;
+    margin: 20px;
+    text-align: center;
+    position: relative;
+    top: 190px;
+    left: 150px;
+
+   
+   
+}
+
+.sociais img{
+    width: 80px;
+    padding: 10px;
+}
+
+.imgrei {
+    width: 500px;
+    position: relative;
+    left: 900px;
+    bottom: 600px;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+    position: absolute;
+    bottom:0;
+    width:100%;
+    margin: auto auto;
+    padding: 10px 5px;
+  
+}
+
+
+
