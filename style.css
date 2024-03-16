@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 * {
     margin: 0px;
@@ -13,4 +13,22 @@ header{
     width: 1600px;
     padding: 0px;
     height: 50px;   
+}
+
+header h1 {
+    color: aliceblue;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 30px;
+    top:15px;
+}
+
+header h2{
+    color:aliceblue;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 1300px;
+    top: px;
 }
