@@ -4,52 +4,30 @@
     margin: 0px;
     padding: 0px;
 }
-
-
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 header{
-    background-color: rgb(3, 3, 3);
-    left: 0px;
-    top: 0px;
-    width: 1581px;
-    padding: 0px;
-    
+    background-color: rgb(65, 65, 65);
+    height: 55px;
 }
 
-header h1 {
-    color: aliceblue;
-    font-size: 15px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    position: relative;
-    left: 30px;
-    top:15px;
-    width: 200px;
+
+
+header .sociais img{
+    padding: 5px;
+    width: 40px;
+    padding-left: 60px;
 }
 
-header h2{
-    color:aliceblue;
-    width: 200px;
-    font-size: 15px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    position: relative;
-    left: 1300px;
-}
 
-header img {
-    width: 25px;
-    position: relative;
-    left: 1260px;
-    bottom: 20px;
-}
- main {
-   height: 0px;
-   width: 0px; 
- }
 
 section {
-    background-color: rgb(211, 219, 219);
-    width: 500px;
-    height: 200px;
+
+    border: solid 1px rgb(156, 156, 156);
+    position: absolute;
+    min-width: 30px;
     margin: 200px;
     padding: 20px;
     border-radius: 10px;
@@ -67,31 +45,11 @@ section p{
     text-align: center;
 }
 
-.sociais {
-  
-    width: 500px;
-    margin: 20px;
-    text-align: center;
-    position: relative;
-    top: 190px;
-    left: 150px;
 
-   
-   
-}
 
-.sociais img{
-    width: 80px;
-    padding: 10px;
-}
 
-.imgrei {
-    width: 500px;
-    position: relative;
-    left: 900px;
-    bottom: 600px;
 
-}
+
 
 footer{
     background-color: black;
