@@ -21,18 +21,17 @@ header{
 
 
 header .sociais img{
-    position: relative;
-    left: 600px;
-    width: 40px;
+  
+    margin-left: 300px;
+    width: 30px;
     padding: 10px;
- 
 
 }
 
 section {
 
     border: solid 1px rgb(156, 156, 156);
-    width: 500px;
+    width: 400px;
     display: block;
     position: relative;
     top: 150px;
