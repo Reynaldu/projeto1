@@ -6,29 +6,53 @@
 }
 html,body{
     
-    background-image: url(../imagens/rei.jpg);
     font-family: Arial, Helvetica,sans-serif; 
+    background-image: url(imagens/rei.jpg);
     background-repeat: no-repeat;
+
 }
 
 header{
     background-color: rgb(65, 65, 65);
-    display: block;
-    
+    box-shadow: 0px 3px 10px black;
+}
+
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
 }
 
 
+.nav-lista {
+    display: flex;
+  align-items: center;
+}
 
-header .sociais img{
-  
-    margin-left: 300px;
-    width: 30px;
-    padding: 10px;
+.nav-lista ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+
+   
+}
+
+.nav-item{
+    margin: 0 15px;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1em;
+    color: aliceblue;
 
 }
+
+
 
 section {
-
+ 
     border: solid 1px rgb(156, 156, 156);
     width: 400px;
     display: block;
@@ -53,12 +77,6 @@ section p{
     font-size: 1.2em;
     text-align: center;
 }
-
-
-
-
-
-
 
 footer{
     background-color: rgb(44, 44, 44);
