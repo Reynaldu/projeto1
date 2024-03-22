@@ -9,12 +9,13 @@ html,body{
     font-family: Arial, Helvetica,sans-serif; 
     background-image: url(imagens/rei.jpg);
     background-repeat: no-repeat;
-
+    overflow: hidden;
 }
 
 header{
     background-color: rgb(65, 65, 65);
     box-shadow: 0px 3px 10px black;
+   
 }
 
 .nav1{
@@ -55,13 +56,14 @@ section {
  
     border: solid 1px rgb(156, 156, 156);
     width: 400px;
+    height: 400px;
     display: block;
     position: relative;
     top: 150px;
     margin: auto ;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 5px 5px 5px black;
 }
 h1 {
