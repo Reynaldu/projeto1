@@ -15,6 +15,7 @@ html,body{
 header{
     background-color: rgb(65, 65, 65);
     box-shadow: 0px 3px 10px black;
+  
    
 }
 
@@ -22,6 +23,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 1em;
+  
 }
 
 
@@ -52,25 +54,28 @@ header{
 
 
 
+
+
 section {
  
     border: solid 1px rgb(156, 156, 156);
     width: 400px;
-    height: 400px;
-    display: block;
+    height: 300px;
     position: relative;
-    top: 150px;
+    top: 30px;
     margin: auto ;
-    padding: 20px;
+    padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 1px black;
 }
+
 h1 {
     font-size: 2.5em;
     text-align: center;
     padding: 10px;
      text-shadow: 2px 2px 0px rgb(148, 129, 129);
+ 
 }
    
 
@@ -91,8 +96,10 @@ footer{
     width:100%;
     margin: auto auto;
     padding: 10px 5px;
+   
   
 }
+
 
 
 
